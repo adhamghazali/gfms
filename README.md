@@ -11,7 +11,7 @@ If the mode `-a` is not specified, GFMS will render your doc via Github API only
 ---
 I could not find a tool that would allow me to preview Github Flavored Markdown files offline, so I wrote one. (Well it's not completely offline - it loads the Github CSS from Akamai and JQuery from Google's CDN, but you know how to cache them if you need to.)
 
-Basically the only way how to preview GFM somewhat properly, was to commit the file to the Github repo and reload the browser page. However committing just for preview unecessarily pollutes GIT history of the file, and it's a tedious process.
+Basically the only way how to preview GFM somewhat properly, was to commit the file to the Github repo and reload the browser page. However committing just for preview unnecessarily pollutes GIT history of the file, and it's a tedious process.
 
 Sure, there are various good Markdown editors for all platforms, but only a few support GFM, and to my knowledge, none properly supports the syntax-colored code blocks denoted by three apostrophes, e.g.
 
